@@ -1,0 +1,31 @@
+1. (单选题)在学生表中，性别字段最适合选择的数据类型是（ B）
+A. 字符串类型
+B. 整型
+C. 时间类型
+D. 浮点类型
+
+5. (单选题)修改数据库xscj的默认字符集为GB2312，SQL语句为（ A）
+A. alter database xscj default character set GB2312；
+B. alter database xscj default character set=GB2312；
+C. alter table xscj default character set GB2312；
+D. alter table xscj default character set utf8;
+
+4. (单选题)删除表中的所有记录采用的SQL命令为（ A）
+A. delete
+B. drop table
+C. create table
+D. alter table
+
+10. (多选题)往校区（schoolarea）表中，插入（3，'创新'）的SQL语句（ABCD）。
+A.  insert into schoolarea set id=3,name='创新';
+B.  insert into schoolarea values(3,'创新');
+C. insert into schoolarea (id,name) values(3,'创新');
+D. insert schoolarea (id,name) values (3,'创新')；
+
+
+
+12. (多选题)删除campus表中的所有数据的SQL语句为（AB）.
+A. delete  from campus;
+B. truncate table campus;
+C. drop campus;
+D. drop table campus;
